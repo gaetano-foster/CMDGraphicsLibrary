@@ -50,3 +50,10 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Batch (Compile)
+*.bat
+
+# Tests
+test/
+.vscode/
