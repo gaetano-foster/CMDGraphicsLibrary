@@ -1,4 +1,4 @@
-# TerminalGraphicsLibrary
+# CMDGraphicsLibrary
 
 A wrapper around the windows api which allows you to draw to the command line. It's basically a 1:1 port of my [TerminalGraphicsLibrary](https://github.com/gaetano-foster/TerminalGraphicsLibrary), save for some small changes.
 
