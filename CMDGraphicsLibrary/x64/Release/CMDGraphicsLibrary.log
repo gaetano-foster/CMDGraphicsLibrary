@@ -1,0 +1,5 @@
+﻿  draw.c
+C:\Users\gaeta\OneDrive\Documents\dev\projects\CMDGraphicsLibrary\CMDGraphicsLibrary\src\draw.c(87,32): warning C4018: '<': signed/unsigned mismatch
+C:\Users\gaeta\OneDrive\Documents\dev\projects\CMDGraphicsLibrary\CMDGraphicsLibrary\src\draw.c(88,36): warning C4018: '<': signed/unsigned mismatch
+  renderer.c
+  CMDGraphicsLibrary.vcxproj -> C:\Users\gaeta\OneDrive\Documents\dev\projects\CMDGraphicsLibrary\x64\Release\CMDGraphicsLibrary.lib
