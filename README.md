@@ -18,7 +18,7 @@ int main(int argc, char **argv) {
 	CMD_SetRenderPixel(renderer, L"@", FG_MAGENTA, BG_CYAN | BG_INTENSE);
 	renderer->mode = FILL;
 	while (1) {
-		CMD_clrscr(renderer);
+		CMD_ClearScreen(renderer);
 		CMD_RenderDrawTri(renderer, (CMD_Tri) { (CMD_Vec2i) { 10, 5 }, (CMD_Vec2i) { 10, 10 }, (CMD_Vec2i) { 5, 5 } });
 		CMD_RendererPresent(renderer);
 	}
