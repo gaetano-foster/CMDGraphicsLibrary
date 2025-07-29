@@ -19,7 +19,11 @@ CMD_RenderDrawPoint(CMD_Renderer *renderer,
 					INT32 x, 
 					INT32 y) 
 {
-    renderer->back[y*renderer->SCR_W+x] = (CMD_Pixel) { renderer->sym, renderer->col };
+	if (y >= renderer->SCR_H || x >= renderer->SCR_W) { // out of bounds
+		return;
+	}
+
+    renderer->back[y * renderer->SCR_W + x] = (CMD_Pixel) { renderer->sym, renderer->col };
 }
 
 void 
